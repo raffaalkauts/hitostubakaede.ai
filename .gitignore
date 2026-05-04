@@ -7,20 +7,14 @@
 **/.idea/
 *.iml
 *.o
-*.so
 *.a
 *.lib
 *.dll
 *.exe
 
-# Large AI Model files (Exceeds GitHub 100MB limit)
+# ONLY Block GGUF files as requested
 *.gguf
-*.bin
-*.task
-**/model/
 **/assets/*.gguf
-**/assets/**/*.bin
-**/assets/**/*.task
 
 # Environment & OS files
 .DS_Store
@@ -32,7 +26,3 @@ local.properties
 # Mobile specific
 *.apk
 *.aar
-
-# Nested Git Repos (Optional: remove this if you want to keep them as submodules)
-# If you want to upload everything as ONE repo, you should remove the .git folders in subdirectories.
-# **/ .git/
