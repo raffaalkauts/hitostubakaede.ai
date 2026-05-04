@@ -13,15 +13,14 @@
 *.dll
 *.exe
 
-# Large AI Model files (Do not upload to GitHub)
+# Large AI Model files (Exceeds GitHub 100MB limit)
 *.gguf
 *.bin
-*.safetensors
-*.pt
-*.onnx
 *.task
 **/model/
 **/assets/*.gguf
+**/assets/**/*.bin
+**/assets/**/*.task
 
 # Environment & OS files
 .DS_Store
