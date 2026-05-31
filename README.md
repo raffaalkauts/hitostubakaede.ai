@@ -38,4 +38,4 @@ Download model `.task` dan letakkan di:
 4. Build dan Run!
 
 ---
-Dikembangkan dengan ❤️ oleh [raffaalkauts](https://github.com/raffaalkauts)
+Dikembangkan oleh [raffaalkauts](https://github.com/raffaalkauts)
